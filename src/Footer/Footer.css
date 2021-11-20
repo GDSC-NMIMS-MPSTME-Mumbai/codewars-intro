@@ -18,7 +18,8 @@
 
 footer.nb-footer {
 background: #222;
-border-top: 4px solid #b78c33; bottom: 0;}
+border-top: 4px solid #b78c33; bottom: 0;
+z-index: 5;}
 
 footer.nb-footer .about {
 margin: 0 auto;
