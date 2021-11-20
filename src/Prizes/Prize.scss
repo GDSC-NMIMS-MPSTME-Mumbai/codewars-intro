@@ -19,10 +19,12 @@
     left: 30vw;
     top:  12vh;
     z-index: 1;
+    filter: drop-shadow(0px 2px 50px rgba(0, 0, 0, 1));
   }
   
   .DeathStar-cap2 {
     display: none;
+    text-shadow: 0px 3px 15px #5ea0d9;
   }
 
   @for $i from 1 through 5 {
@@ -63,6 +65,7 @@
       left: 15vw;
       top:  12vh;
       z-index: 1;
+      filter: drop-shadow(0px 2px 50px rgba(0, 0, 0, 1));
     }
   }
 
@@ -88,10 +91,12 @@
       left: 18vw;
       top:  22vh;
       z-index: 1;
+      filter: drop-shadow(0px 2px 50px rgba(0, 0, 0, 1));
     }
 
     .DeathStar-cap{
       display: none;
+      text-shadow: 0px 3px 15px #5ea0d9;
     }
 
     .DeathStar-cap2 {
@@ -107,6 +112,7 @@
       text-align: center;
       color: aliceblue;
       align-self: center;
+      text-shadow: 0px 3px 15px #5ea0d9;
     }
   
     
@@ -134,10 +140,12 @@
       left: 18vw;
       top:  25vh;
       z-index: 1;
+      filter: drop-shadow(0px 2px 50px rgba(0, 0, 0, 1));
     }
 
     .DeathStar-cap{
       display: none;
+      text-shadow: 0px 3px 15px #5ea0d9;
     }
     
     .DeathStar-cap2 {
@@ -153,6 +161,7 @@
       text-align: center;
       color: aliceblue;
       align-self: center;
+      text-shadow: 0px 3px 15px #5ea0d9;
     }
   }
 
@@ -163,6 +172,7 @@
     font-weight: 600;
     text-align: center;
     color: aliceblue;
+    text-shadow: 0px 3px 15px #5ea0d9;
   }
 
   .card-ul{
