@@ -21,6 +21,9 @@
     z-index: 1;
   }
   
+  .DeathStar-cap2 {
+    display: none;
+  }
 
   @for $i from 1 through 5 {
     .card-li:nth-child(#{$i}) {
@@ -52,6 +55,15 @@
         transform: rotateX(-100deg) rotate(-360deg);
       }
     }
+
+    .DeathStar {
+      position: absolute;
+      width: 60vw;
+      height: 60vw;
+      left: 15vw;
+      top:  12vh;
+      z-index: 1;
+    }
   }
 
   @media screen and (max-width: 767px) {
@@ -77,6 +89,26 @@
       top:  22vh;
       z-index: 1;
     }
+
+    .DeathStar-cap{
+      display: none;
+    }
+
+    .DeathStar-cap2 {
+      display: block;
+      position: absolute;
+      left:1vw;
+      top: 7vh;
+      width: 60vw;
+      padding-top: 3vh;
+      padding-right: 5vh;
+      font-size: 200%;
+      font-weight: 600;
+      text-align: center;
+      color: aliceblue;
+      align-self: center;
+    }
+  
     
   }
 
@@ -100,10 +132,37 @@
       width: 70vw;
       height: 70vw;
       left: 18vw;
-      top:  22vh;
+      top:  25vh;
       z-index: 1;
     }
+
+    .DeathStar-cap{
+      display: none;
+    }
     
+    .DeathStar-cap2 {
+      position: absolute;
+      display: block;
+      top: 7vh;
+      left:1vw;
+      padding-top: 3vh;
+      padding-right: 5vh;
+      width: 50vw;
+      font-size: 200%;
+      font-weight: 600;
+      text-align: center;
+      color: aliceblue;
+      align-self: center;
+    }
+  }
+
+  .DeathStar-cap{
+    padding-top: 3vh;
+    padding-right: 5vh;
+    font-size: 300%;
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
   }
 
   
