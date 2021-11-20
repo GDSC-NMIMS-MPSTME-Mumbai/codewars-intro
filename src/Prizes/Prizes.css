@@ -1,0 +1,95 @@
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex.fill {
+  height: 100%;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+
+
+
+.DeathStar-col {
+  align-content: center;
+}
+
+.c {
+  position: absolute;
+  max-width: 500px;
+  max-height: 500px;
+  width: 40vw;
+  height: 30vh;
+  cursor: pointer;
+  will-change: transform, opacity;
+  background-size: cover;
+}
+
+.prize-col {
+  height: 100vh;
+}
+
+.card-ul{
+  position: absolute;
+  top: 70vh;
+  left: 45vw;
+}
+
+.front1 {
+  background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+  background-size: 100% 100%;;
+}
+
+.back1 {
+  background-image: url(../Assets/DeathShield1.jpeg);
+  background-size: 100% 100%;;
+}
+
+.front2 {
+  background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+  background-size: 100% 100%;;
+}
+
+.back2 {
+  background-image: url(../Assets/DeathShield2.jpeg);
+  background-size: 100% 100%;;
+}
+
+.front3 {
+  background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+  background-size: 100% 100%;;
+}
+
+.back3 {
+  background-image: url(../Assets/DeathShield3.jpeg);
+  background-size: 100% 100%;;
+}
+.front4 {
+  background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+  background-size: 100% 100%;;
+}
+
+.back4 {
+  background-image: url(../Assets/DeathShield4.jpeg);
+  background-size: 100% 100%;;
+}
+.front5 {
+  background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+  background-size: 100% 100%;;
+}
+
+.back5 {
+  background-image: url(../Assets/DeathShield5.jpeg);
+  background-size: 100% 100%;;
+}
+.cardcontainer {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}
