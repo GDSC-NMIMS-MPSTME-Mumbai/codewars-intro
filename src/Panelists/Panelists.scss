@@ -6,16 +6,39 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px;
+    margin: 15px;
     background: #060c21; /* Change */
     transition: .5s;
     
+}
+@media screen and (max-width: 767px) {
+    .PanelistContainer {
+        padding-top: 20vh;
+    }
 }
 
 .box:hover {
     height: 400px;
 }
 
+.PanelistContainer {
+    padding-top: 3vh;
+    font-size: 300%;
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0px 3px 15px #5ea0d9;
+}
+@media screen and (max-width: 1023px) {
+    .PanelistContainer {
+        padding-top: 17vh;
+        font-size: 300%;
+        font-weight: 600;
+        text-align: center;
+        color: aliceblue;
+        text-shadow: 0px 3px 15px #5ea0d9;
+    }
+}
 .box .imgBx {
     position: absolute;
     top: 0;
