@@ -34,11 +34,6 @@
   height: 100vh;
 }
 
-.card-ul{
-  position: absolute;
-  top: 73vh;
-  left: 45vw;
-}
 
 .front1 {
   background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
