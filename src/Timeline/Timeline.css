@@ -11,3 +11,13 @@
 .vertical-timeline-element {
     margin: 0.7em 0;
 }
+
+.TimelineContainer {
+    padding-top: 0vh;
+}
+
+@media only screen and (max-width: 992px){
+    .TimelineContainer {
+        padding-top: 15vh;
+    }
+}

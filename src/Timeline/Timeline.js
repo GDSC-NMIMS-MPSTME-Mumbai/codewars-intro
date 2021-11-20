@@ -18,7 +18,7 @@ import './Timeline.css'
 class Timeline extends Component {
   render() {
     return (
-      <div className="container">
+      <div className="container TimelineContainer">
         <div className="row">
           <div className="col-lg">
             <VerticalTimeline>

@@ -7,7 +7,7 @@ class Panelists extends Component {
       <div className="container PanelistContainer">
         <div className="row justify-content-md-center">
           <div className="col col-lg PanelHeading">
-            A thousand generations live in you now. But this is your fight.
+            In a dark place we find ourselves and a little more knowledge lights our way
             <span className="gradient"></span>
             <span className="dodge"></span>
           </div>

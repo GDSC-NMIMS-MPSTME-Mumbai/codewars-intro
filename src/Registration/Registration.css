@@ -8,10 +8,42 @@
   text-shadow: 0px 3px 15px #5ea0d9;
 }
 .registrationRow {
-  padding-top: 18vh;
   height: 100vh;
   width: 100vw;
-  left: 0px;
+  left: 0vw;
   position: absolute;
   z-index: 1;
+}
+.registrationCol {
+  left: 0vw;
+  height: 80vh;
+}
+
+.registrationCol2 {
+  margin-left: 20vw;
+  margin-right: 20vw;
+}
+
+@media only screen and (max-width: 767px){
+  .registrationCol {
+    height: 90vh;
+  }
+
+  .registrationContainer {
+    height: 175vh;
+    padding-top: 18vh;
+    font-size: 300%;
+    font-weight: 600;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 0px 3px 15px #5ea0d9;
+  }
+
+  .registrationRow {
+    height: 120vh;
+    width: 100vw;
+    left: 2vw;
+    position: absolute;
+    z-index: 1;
+  }
 }
