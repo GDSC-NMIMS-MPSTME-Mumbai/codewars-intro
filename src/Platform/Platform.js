@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {useSprings,animated, interpolate} from "react-spring";
+import { useSprings, animated, interpolate } from "react-spring";
 import { useGesture } from "react-use-gesture";
 import { bookWidth, bookHeight } from "./config";
 import { calculate } from "./calculate";
@@ -116,7 +116,7 @@ const Platform = () => {
     from: from(i)
   }));
 
-// TODO: on hover make bottom corner of first page flipping
+  // TODO: on hover make bottom corner of first page flipping
   const onHoverHandler = ({ hovering, down }) => {
     return false;
     if (hovering) {
@@ -243,15 +243,15 @@ const Platform = () => {
             immediate: true
           };
 
-          if(i === index+4) {
-            return {
-              ...to,
-              x: pageWidth,
-              z: 0,
-              display: "block",
-              immediate: true
-            };
-          }
+        if (i === index + 4) {
+          return {
+            ...to,
+            x: pageWidth,
+            z: 0,
+            display: "block",
+            immediate: true
+          };
+        }
         return { ...to, z: 0, display: "none", immediate: true };
       });
 
@@ -285,15 +285,15 @@ const Platform = () => {
             display: "block",
             immediate: true
           };
-          if(i === index+1) {
-            return {
-              ...to,
-              x: pageWidth,
-              z: 0,
-              display: "block",
-              immediate: true
-            };
-          }
+        if (i === index + 1) {
+          return {
+            ...to,
+            x: pageWidth,
+            z: 0,
+            display: "block",
+            immediate: true
+          };
+        }
         return { ...to, z: 0, display: "none", immediate: true };
       });
       console.log("finished-left");
@@ -762,19 +762,19 @@ const Platform = () => {
               backgroundColor: pages[i],
               backgroundPositionX: 0,
               backgroundImage:
-                (i % 2 === 1 && i !== props.length-1)
+                (i % 2 === 1 && i !== props.length - 1)
                   ? interpolate([x2, bgRad], (x2, bgRad) => {
-                      return `linear-gradient(to right,
+                    return `linear-gradient(to right,
          rgb(230, 230, 230) 0%,
         rgb(255,255,255) ${(x2 * 65) / pageWidth}%,
         rgb(230, 230, 230) ${(x2 * 80) / pageWidth}%,
         rgb(217, 217, 217) ${(x2 * 88) / pageWidth}%,
         rgb(255,255,255) 100%
       )`;
-                    })
+                  })
                   : i !== index.value + 2 || true // TODO shadow move
-                  ? `linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%,rgba(184, 184, 184, 0) 60px)`
-                  : null,
+                    ? `linear-gradient(to right, rgba(0, 0, 0, 0.3) 0%,rgba(184, 184, 184, 0) 60px)`
+                    : null,
               //                interpolate(
               //                  [bgRad, bgPos],
               //                  (bgRad, bgPos) =>
@@ -833,14 +833,18 @@ const Platform = () => {
     }
   );
   return (
-    <>
-      <div id="book-container" style={{ width: bookWidth, height: bookHeight }}>
-        {content}
+    <div className="container">
+      <div className="row">
+        <div className="col col-lg">
+          <div id="book-container" style={{ width: bookWidth, height: bookHeight }}>
+            {content}
+          </div>
+          <div className="copy">
+            Drag page to flip
+          </div>
+        </div>
       </div>
-      <div className="copy">
-      Drag page to flip
-      </div>
-    </>
-  );
+    </div>
+        );
 };
-export default Platform;
+        export default Platform;
