@@ -22,6 +22,33 @@ class Details extends Component {
               </div>
             </section>
           </div>
+          <div className="col col-lg detailcard-col">
+            <div className="card-container">
+              <div className="card-box">
+                <span></span>
+                <div className="card-content">
+                  <h2>Card One</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed eveniet quo repellendus tempore non earum dolore. Nam sed inventore praesentium!</p>
+                </div>
+              </div>
+              <div className="card-box">
+                <span></span>
+                <div className="card-content">
+                  <h2>Card Two</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed eveniet quo repellendus tempore non earum dolore. Nam sed inventore praesentium!</p>
+                  
+                </div>
+              </div>
+              <div className="card-box">
+                <span></span>
+                <div className="card-content">
+                  <h2>Card Three</h2>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed eveniet quo repellendus tempore non earum dolore. Nam sed inventore praesentium!</p>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
