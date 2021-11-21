@@ -140,13 +140,13 @@ const slides = [
     return /*#__PURE__*/(
       React.createElement("div", { className: "container slidecontainer" }, /*#__PURE__*/
       React.createElement("div", { className: "slides" }, /*#__PURE__*/
-      React.createElement("button", { onClick: () => dispatch({ type: "PREV" }) }, "\u2039"),
+      React.createElement("button", { className: "SponsorButton", onClick: () => dispatch({ type: "PREV" }) }, "\u2039"),
   
       [...slides, ...slides, ...slides].map((slide, i) => {
         let offset = slides.length + (state.slideIndex - i);
         return /*#__PURE__*/React.createElement(Slide, { slide: slide, offset: offset, key: i });
       }), /*#__PURE__*/
-      React.createElement("button", { onClick: () => dispatch({ type: "NEXT" }) }, "\u203A"))));
+      React.createElement("button", {className: "SponsorButton", onClick: () => dispatch({ type: "NEXT" }) }, "\u203A"))));
   
   }
   

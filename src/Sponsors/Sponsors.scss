@@ -2,7 +2,8 @@
   display: grid;
   justify-content: center;
   width: 100%;
-  height: 100vh;
+  height: 90vh;
+  color: white;
 }
 .slides > .slide {
   grid-area: 1/-1;
@@ -16,12 +17,13 @@
   color: white;
   position: absolute;
   font-size: 5rem;
-  width: 100%;
-  height: 100%;
+  width: 5vw;
+  height: 5vh;
   top: 30%;
   transition: opacity 0.3s;
   opacity: 0.7;
   z-index: 5;
+  right: 2vw;
 }
 .slides > button:hover {
   opacity: 1;
@@ -30,10 +32,16 @@
   outline: none;
 }
 .slides > button:first-child {
-  left: -50%;
+  left: 0vw;
+  top:0vh;
+  width: 30vw;
+  height: 60vh;
 }
 .slides > button:last-child {
-  right: -50%;
+  right: 0vw;
+  top:0vh;
+  width: 30vw;
+  height: 60vh;
 }
 
 .slideContent {
@@ -109,4 +117,30 @@
 .slide[data-active] .slideContent:hover {
   transition: none;
   transform: perspective(1000px) rotateY(calc(var(--x) * 45deg)) rotateX(calc(var(--y) * -45deg));
+}
+
+.slidecontainer {
+  padding-top: 18vh;
+  z-index:1;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+  .slides {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 60vh;
+    color: white;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .slides {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    height: 40vh;
+    color: white;
+  }
 }
