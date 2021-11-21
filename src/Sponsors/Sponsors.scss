@@ -58,7 +58,7 @@
   align-content: center;
   transform-style: preserve-3d;
   transform: perspective(1000px) translateX(calc(100% * var(--offset))) rotateY(calc(-45deg * var(--dir)));
-  box-shadow: #2b557a 0px 0px 17px 1px;
+  box-shadow: #2b557a 0px 0px 35px 1px;
 }
 
 .slideContentInner {
