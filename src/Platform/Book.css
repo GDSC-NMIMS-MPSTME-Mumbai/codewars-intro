@@ -1,9 +1,15 @@
-.BookCover {
-  background-image: radial-gradient(rgb(177, 118, 63), rgb(161, 119, 65), rgb(136, 97, 82));
+.BookCover1 {
+  background-image: url(../Assets/PlatformBookCover.png);
+  background-size: cover;
 }
 
 .BookPage {
   background-image: radial-gradient(rgb(238, 237, 225), rgb(221, 218, 194), rgb(182, 168, 139));
   border: brown;
   border-width:5vw;
+}
+
+.BookCover2 {
+  background-color: #5e956b;
+  background-size: cover;
 }
