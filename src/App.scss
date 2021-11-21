@@ -91,7 +91,7 @@ $w: 300px;
   position:fixed;
   top:0%;
   left:0%;
-  z-index: 2;
+  z-index: 5;
 }
 
 .burger {
@@ -204,7 +204,7 @@ $w: 300px;
   bottom:0px;
   padding-right:16px;
   width:$w;
-  z-index: 2;
+  z-index: 5;
   ul {
     list-style:none;
     padding:0;
