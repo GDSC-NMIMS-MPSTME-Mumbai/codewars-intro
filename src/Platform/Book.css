@@ -1,9 +1,9 @@
-.magazine {
-    width: 576px;
-    height: 752px;
-  }
-  .magazine .turn-page {
-    background-color: #ccc;
-    background-size: 100% 100%;
-  }
-  
+.BookCover {
+  background-image: radial-gradient(rgb(177, 118, 63), rgb(161, 119, 65), rgb(136, 97, 82));
+}
+
+.BookPage {
+  background-image: radial-gradient(rgb(238, 237, 225), rgb(221, 218, 194), rgb(182, 168, 139));
+  border: brown;
+  border-width:5vw;
+}

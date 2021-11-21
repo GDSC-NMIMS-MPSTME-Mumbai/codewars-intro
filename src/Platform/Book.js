@@ -1,87 +1,70 @@
 import React from "react";
-import $ from "jquery";
-import "turn.js";
+import HTMLFlipBook from "react-pageflip";
+import './Book.css'
 
-import "./Book.css";
+const PageCover = React.forwardRef((props, ref) => {
+  return (
+    <div className={"page page-cover " + props.className} ref={ref} data-density="hard">
+      <div className="page-content">
+        <h2>{props.children}</h2>
+      </div>
+    </div>
+  );
+});
 
-class Turn extends React.Component {
-  static defaultProps = {
-    style: {},
-    className: "",
-    options: {}
-  };
+const Page = React.forwardRef((props, ref) => {
+  return (
+    <div className={"page " + props.className} ref={ref} data-density="soft">
+      <div className="page-content">
+        <h2 className="page-header">Page header - {props.number}</h2>
+        <div className="page-image"></div>
+        <div className="page-text">{props.children}</div>
+        <div className="page-footer">{props.number + 1}</div>
+      </div>
+    </div>
+  );
+});
 
-  componentDidMount() {
-    if (this.el) {
-      $(this.el).turn(Object.assign({}, this.props.options));
-    }
-    document.addEventListener("keydown", this.handleKeyDown, false);
+class Book extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      page: 0,
+      totalPage: 0,
+    };
   }
 
-  componentWillUnmount() {
-    if (this.el) {
-      $(this.el)
-        .turn("destroy")
-        .remove();
-    }
-    document.removeEventListener("keydown", this.handleKeyDown, false);
-  }
-
-  handleKeyDown = event => {
-    if (event.keyCode === 37) {
-      $(this.el).turn("previous");
-    }
-    if (event.keyCode === 39) {
-      $(this.el).turn("next");
-    }
-  };
+    
 
   render() {
     return (
-      <div
-        className={this.props.className}
-        style={Object.assign({}, this.props.style)}
-        ref={el => (this.el = el)}
-      >
-        {this.props.children}
-      </div>
+        <HTMLFlipBook
+          width={550}
+          height={733}
+          size="stretch"
+          minWidth={315}
+          maxWidth={1000}
+          minHeight={400}
+          maxHeight={1533}
+          maxShadowOpacity={0.5}
+          showCover={true}
+          mobileScrollSupport={true}
+          className="demo-book"
+          ref={(el) => (this.flipBook = el)}
+        >
+
+          <PageCover className="BookCover">BOOK TITLE</PageCover>
+          <Page number={1} className="BookPage">Lorem ipsum...</Page>
+          <Page number={2} className="BookPage">Lorem ipsum...</Page>
+          <Page number={3} className="BookPage">Lorem ipsum...</Page>
+          <Page number={4} className="BookPage">Lorem ipsum...</Page>
+          <Page number={5} className="BookPage">Lorem ipsum...</Page>
+          <PageCover className="BookCover">THE END</PageCover>
+
+        </HTMLFlipBook>
     );
   }
 }
 
-const options = {
-  width: 800,
-  height: 600,
-  autoCenter: true,
-  display: "double",
-  acceleration: true,
-  elevation: 50,
-  gradients: !$.isTouch,
-  when: {
-    turned: function(e, page) {
-      console.log("Current view: ", $(this).turn("view"));
-    }
-  }
-};
-
-const pages = [
-  "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/01.jpg",
-  "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/02.jpg",
-  "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/03.jpg",
-  "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/04.jpg",
-  "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/05.jpg",
-  "https://raw.github.com/blasten/turn.js/master/demos/magazine/pages/06.jpg"
-];
-
-const Book = () => {
-  return (
-    <Turn options={options} className="magazine">
-      {pages.map((page, index) => (
-        <div key={index} className="page">
-          <img src={page} alt="" />
-        </div>
-      ))}
-    </Turn>
-  );
-};
-export default Book
+export default Book;
