@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/codewars-intro/static/css/main.a6d54414.chunk.css",
+    "main.js": "/codewars-intro/static/js/main.c27c5dd2.chunk.js",
+    "main.js.map": "/codewars-intro/static/js/main.c27c5dd2.chunk.js.map",
+    "runtime-main.js": "/codewars-intro/static/js/runtime-main.8ee8eacb.js",
+    "runtime-main.js.map": "/codewars-intro/static/js/runtime-main.8ee8eacb.js.map",
+    "static/css/2.2e99a83d.chunk.css": "/codewars-intro/static/css/2.2e99a83d.chunk.css",
+    "static/js/2.3fc402fb.chunk.js": "/codewars-intro/static/js/2.3fc402fb.chunk.js",
+    "static/js/2.3fc402fb.chunk.js.map": "/codewars-intro/static/js/2.3fc402fb.chunk.js.map",
+    "index.html": "/codewars-intro/index.html",
+    "static/css/2.2e99a83d.chunk.css.map": "/codewars-intro/static/css/2.2e99a83d.chunk.css.map",
+    "static/css/main.a6d54414.chunk.css.map": "/codewars-intro/static/css/main.a6d54414.chunk.css.map",
+    "static/js/2.3fc402fb.chunk.js.LICENSE.txt": "/codewars-intro/static/js/2.3fc402fb.chunk.js.LICENSE.txt",
+    "static/media/CodeWarsLogo.2a00a5c9.png": "/codewars-intro/static/media/CodeWarsLogo.2a00a5c9.png",
+    "static/media/Prizes.css": "/codewars-intro/static/media/DeathShield5.d34f8a9d.jpeg",
+    "static/media/DeathShield1.abd640f6.png": "/codewars-intro/static/media/DeathShield1.abd640f6.png",
+    "static/media/DeathShield2.a47be2e9.jpg": "/codewars-intro/static/media/DeathShield2.a47be2e9.jpg",
+    "static/media/DeathShield3.76c31a45.jpg": "/codewars-intro/static/media/DeathShield3.76c31a45.jpg",
+    "static/media/DeathShield4.cc2324b4.jpg": "/codewars-intro/static/media/DeathShield4.cc2324b4.jpg",
+    "static/media/DeathShield5.e65dc8cd.jpg": "/codewars-intro/static/media/DeathShield5.e65dc8cd.jpg",
+    "static/media/DeathStar.082da823.png": "/codewars-intro/static/media/DeathStar.082da823.png",
+    "static/media/GDSCLogo.56ed678a.png": "/codewars-intro/static/media/GDSCLogo.56ed678a.png",
+    "static/media/Book.css": "/codewars-intro/static/media/PlatformBookCover.d3f17859.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8ee8eacb.js",
+    "static/css/2.2e99a83d.chunk.css",
+    "static/js/2.3fc402fb.chunk.js",
+    "static/css/main.a6d54414.chunk.css",
+    "static/js/main.c27c5dd2.chunk.js"
+  ]
+}
