@@ -16,10 +16,10 @@ export default function Footer() {
 
                             <div class ="social-media">
                             <ul class ="list-inline">
-                            <li><a href="http://www.nextbootstrap.com/" title=""><i class ="fa fa-facebook"/></a></li>
-                            <li><a href="http://www.nextbootstrap.com/" title=""><i class ="fa fa-twitter"/></a></li>
-                            <li><a href="http://www.nextbootstrap.com/" title=""><i class ="fa fa-google-plus"/></a></li>
-                            <li><a href="http://www.nextbootstrap.com/" title=""><i class ="fa fa-linkedin"/></a></li>
+                            <li><a href="https://www.linkedin.com/company/google-developer-student-club-mpstme/" title=""><i class ="fa fa-linkedin"/></a></li>
+                            <li><a href="https://www.instagram.com/gdsc.mpstme/" title=""><i class ="fa fa-instagram"/></a></li>
+                            <li><a href="https://github.com/GDSC-NMIMS-MPSTME-Mumbai" title=""><i class ="fa fa-github"/></a></li>
+                            <li><a href="https://gdsc.community.dev/mukesh-patel-school-of-technology-management-and-engineering-mumbai/" title=""><i class ="fa fa-google"/></a></li>
                             </ul>
                             </div>
                         </div>

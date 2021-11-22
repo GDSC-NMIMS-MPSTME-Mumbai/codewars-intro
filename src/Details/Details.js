@@ -27,23 +27,23 @@ class Details extends Component {
               <div className="card-box">
                 <span></span>
                 <div className="card-content">
-                  <h2>Card One</h2>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed eveniet quo repellendus tempore non earum dolore. Nam sed inventore praesentium!</p>
+                  <h2>Stage One</h2>
+                  <p>Choose a partner to have your back on this conquest. They must be from your class only. Give your teams’ name to your Class Representative/Student Representative.If there is more than one team vying to represent a class, we shall organize a short Competitive Programming competition for them on Hackerrank on 3rd-4th December.</p>
                 </div>
               </div>
               <div className="card-box">
                 <span></span>
                 <div className="card-content">
-                  <h2>Card Two</h2>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed eveniet quo repellendus tempore non earum dolore. Nam sed inventore praesentium!</p>
+                  <h2>Stage Two</h2>
+                  <p>As this is a one-of-a-kind competition, we shall use a custom-designed Competitive Programming platform named CodeWars, made with 💗by our Web Development team. To maintain a degree of fairness, we shall divide all teams into 4 pools, according to the year they are in. You shall go head-to-head against your opponent's team to solve a CP problem. You will have to join our Discord server, where you will be assigned a team-specific Voice Channel and Text Channel that only you and your teammate, as well as GDSC Administrators will have access to.</p>
                   
                 </div>
               </div>
               <div className="card-box">
                 <span></span>
                 <div className="card-content">
-                  <h2>Card Three</h2>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed eveniet quo repellendus tempore non earum dolore. Nam sed inventore praesentium!</p>
+                  <h2>Stage Three</h2>
+                  <p>The top 2 teams from each year-grade are invited to join us for the Grand Finals to be hosted offline, on December 11th (Saturday) in college. If you are in Mumbai or surrounding areas, you shall be requested to come to college for the competition. Further logistical compliance like Vaccination certificates, Social Distancing guidelines etc. shall be discussed later with the qualifying participants. Finals shall consist of several problems, to be tested over 4 rounds, with the results of each round being added up to a scoreboard.</p>
                   
                 </div>
               </div>

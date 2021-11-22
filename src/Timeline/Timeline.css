@@ -21,3 +21,18 @@
         padding-top: 15vh;
     }
 }
+.vertical-timeline-element-title {
+    font-size: 250%;
+}
+
+.vertical-timeline-element-subtitle {
+    font-size: 150%;
+}
+
+.vertical-timeline-element-content p{
+    font-size: 130%;
+}
+
+.vertical-timeline-element-date{
+    font-size: 130% !important
+}

@@ -143,6 +143,7 @@
     transition: 0.5s;
     animation: animate 2s ease-in-out linear infinite;
     box-shadow: 0 5px 15px rgba(0, 0,0,0.05);
+    z-index: 1;
 }
 .card-container .card-box:hover span::before {
     top: -50px;
@@ -166,6 +167,7 @@
     animation: animate 2s ease-in-out linear infinite;
     animation-delay: -1s;
     box-shadow: 0 5px 15px rgba(0, 0,0,0.05);
+    z-index: 1;
 }
 .card-container .card-box:hover span::after {
     bottom: -50px;
@@ -173,6 +175,10 @@
     width: 100px;
     height: 100px;
     opacity: 1;
+}
+
+.card-container .card-box:hover span {
+    z-index: 1;
 }
 @keyframes animate {
     0%, 100% {
@@ -218,4 +224,11 @@
     text-decoration: none;
     font-weight: 700;
     margin-top: 5px;
+}
+
+.card-content p{
+    z-index: 2;
+}
+.card-content a{
+    z-index: 2;
 }

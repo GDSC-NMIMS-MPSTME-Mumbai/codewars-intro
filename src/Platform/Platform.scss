@@ -11,16 +11,34 @@
   text-shadow: 0px 3px 15px #5ea0d9;
 }
 
-@media only screen and (max-width: 767px){
-  .PlatformCol {
-    margin-left: 1vw;
-    margin-right: 1vw;
-  }
+.PlatformTop {
+  display: block;
 }
+.PlatformBottom {
+  display: none;
+}
+
 
 @media only screen and (max-width: 900px){
   .PlatformContainer {
-    padding-top: 20vh;
+    padding-top: 18vh;
+    padding-bottom: 5vh;
+  }
+}
+
+@media only screen and (max-width: 611px){
+  .PlatformCol {
+    margin-left: 2vw;
+    margin-right:2vw;
+  }
+  .PlatformTop {
+    display: none;
+  }
+  .PlatformBottom {
+    display: block;
+  }
+  .PlatformContainer {
+    padding-top: 18vh;
     padding-bottom: 5vh;
   }
 }
