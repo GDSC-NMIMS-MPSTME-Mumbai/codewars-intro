@@ -16,7 +16,7 @@ const Page = React.forwardRef((props, ref) => {
   return (
     <div className={"page " + props.className+ " " + props.className+props.number} ref={ref} data-density="soft">
       <div className="page-content">
-        <h2 className="page-header">Page header - {props.number}</h2>
+        <h2 className="page-header">{props.header}</h2>
         <div className="page-image"></div>
         <div className="page-text">{props.children}</div>
       </div>
@@ -54,12 +54,12 @@ class Book extends React.Component {
         >
 
           <PageCover className="BookCover1" number={1}></PageCover>
-          <Page number={1} className="BookPage">Lorem ipsum...</Page>
-          <Page number={2} className="BookPage">Lorem ipsum...</Page>
-          <Page number={3} className="BookPage">Lorem ipsum...</Page>
-          <Page number={4} className="BookPage">Lorem ipsum...</Page>
-          <Page number={5} className="BookPage">Lorem ipsum...</Page>
-          <Page number={6} className="BookPage">Lorem ipsum...</Page>
+          <Page number={1} className="BookPage" header="Platform">Specially designed for the competition by our Web Development Team</Page>
+          <Page number={2} className="BookPage" header="Real-time Chat">Real-time chat with lobby members</Page>
+          <Page number={3} className="BookPage" header="Screenshare Controlled Rooms">Screen shared controlled rooms to maintain the integrity of the competition</Page>
+          <Page number={4} className="BookPage" header="Selected Authentication">Controlled access to the platform based on provided credentials</Page>
+          <Page number={5} className="BookPage" header="Head-to-Head Coding Arena">Coding arena to pair teams of the same year for competing</Page>
+          <Page number={6} className="BookPage" header="Intuitive User Interface">An intuitive user interface to help you get started without any hassles</Page>
           <PageCover className="BookCover2" number={2}></PageCover>
 
         </HTMLFlipBook>

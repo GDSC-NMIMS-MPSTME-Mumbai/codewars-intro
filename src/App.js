@@ -1,5 +1,5 @@
 import './App.scss';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Details from './Details/Details'
 import Platform from './Platform/Platform'
 import Timeline from './Timeline/Timeline'
@@ -32,7 +32,7 @@ function App() {
 
                 <nav className={checknav? "topnav show": "topnav"}>
                     <ul>
-                        <li className="green"><Link to={'/codewars-intro'} className="nav-link"> Details </Link></li>
+                        <li className="green"><Link to={'/'} className="nav-link"> Details </Link></li>
                         <li className="red"><Link to={'/platform'} className="nav-link">Platform</Link></li>
                         <li className="yellow"><Link to={'/timeline'} className="nav-link">Timeline</Link></li>
                         <li className="purple"><Link to={'/registration'} className="nav-link">Registration</Link></li>
@@ -44,7 +44,7 @@ function App() {
 
 
                 <Routes>
-                    <Route exact path='/codewars-intro' element={<Details />} />
+                    <Route exact path='/' element={<Details />} />
                     <Route path='/platform' element={<Platform />} />
                     <Route path='/timeline' element={<Timeline />} />
                     <Route path='/registration' element={<Registration />} />

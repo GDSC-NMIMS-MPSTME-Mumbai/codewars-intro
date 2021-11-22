@@ -41,12 +41,12 @@ class Timeline extends Component {
                   />
                 }
               >
-                <h3 className="vertical-timeline-element-title">Registration Ends</h3>
-                <h4 className="vertical-timeline-element-subtitle">Online</h4>
+                <h3 className="vertical-timeline-element-title">Registrations</h3>
+                <h4 className="vertical-timeline-element-subtitle">(Online)</h4>
                 <p>
-                  Final day for team registration only through CR/SR. If more than one
-                  team wishes to register, we take their information to schedule an
-                  exclusive competition for them.
+                Registrations open on 24th November, all through 4th December.
+                Get a team-mate for this conquest and get in for the Greatest battle of your lives. To register, navigate to the Registration tab.
+
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -68,11 +68,11 @@ class Timeline extends Component {
                   />
                 }
               >
-                <h3 className="vertical-timeline-element-title">Intra-class Competition</h3>
-                <h4 className="vertical-timeline-element-subtitle">Online</h4>
+                <h3 className="vertical-timeline-element-title">Intra-class Competition </h3>
+                <h4 className="vertical-timeline-element-subtitle">(Online)</h4>
                 <p>
-                  Conduction of class-wise competitions to get final teams for the main
-                  competition
+                If you have more than one team vying to represent your class, you must first fight them and emerge victorious!
+                We shall be organising a common Hackerrank competition for all teams of a single pool. From the same class, the team with the higher rank shall qualify to represent the class!	
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -94,11 +94,10 @@ class Timeline extends Component {
                   />
                 }
               >
-                <h3 className="vertical-timeline-element-title">Workshop</h3>
-                <h4 className="vertical-timeline-element-subtitle">Online</h4>
+                <h3 className="vertical-timeline-element-title">Game Development Workshop</h3>
+                <h4 className="vertical-timeline-element-subtitle">(Online)</h4>
                 <p>
-                  Game Development Workshop by Mr. Ram Iyer, Declaration of final teams
-                  and fixtures
+                Join us as we bring in Mr. Ram Iyer, a former student of MPSTME and a former intern at EA Sports, to tell us more about the world of Game Development, opportunities and skills required for Game Development.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -120,11 +119,10 @@ class Timeline extends Component {
                   />
                 }
               >
-                <h3 className="vertical-timeline-element-title">Knockout Stage</h3>
-                <h4 className="vertical-timeline-element-subtitle">Online</h4>
+                <h3 className="vertical-timeline-element-title">Knock-Out Tournament</h3>
+                <h4 className="vertical-timeline-element-subtitle">(Online)</h4>
                 <p>
-                  Round of 64, 32, 16, Quarters and Semis. Final 2 teams to qualify for
-                  grand finale
+                  Log on to our custom-designed CP platform, made with 💗 by our Web Development department. It is a one-stop shop for everything CodeWars! Participate in the actual competition and fight your way within the pool, to the top! It is a knock-out tournament, where you will go head-to-head against another team. Both teams will be presented with a question, following which the team, whose submission is accepted first, wins and moves to the next round.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -146,11 +144,10 @@ class Timeline extends Component {
                   />
                 }
               >
-                <h3 className="vertical-timeline-element-title">Panel Discussion</h3>
-                <h4 className="vertical-timeline-element-subtitle">Online</h4>
+                <h3 className="vertical-timeline-element-title">Interview Bytes</h3>
+                <h4 className="vertical-timeline-element-subtitle">(Online)</h4>
                 <p>
-                  Panel Discussion on Interview strategies, Preparation and individual
-                  journeys in companies. Final team reveals
+                Join us as we conduct a Panel Discussion with some of the best experts in the industry from Google, Amazon, Microsoft, Oracle, Apple and more to tell you about interview strategies and their journeys into those companies.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
@@ -173,10 +170,9 @@ class Timeline extends Component {
                 }
               >
                 <h3 className="vertical-timeline-element-title">Grand Finale</h3>
-                <h4 className="vertical-timeline-element-subtitle">Offline</h4>
+                <h4 className="vertical-timeline-element-subtitle">(Offline)</h4>
                 <p>
-                  Grand Finale to be held at Seminar Hall - 6th Floor, MPSTME Mumbai
-                  Main building
+                The top 2 teams from each pool will be invited to compete offline in a special Grand Finale, where they become the main contenders to the throne of the Order. The teams will go head-to-head directly over 4 rounds of problem-stages, with only one team emerging as the Supreme!
                 </p>
               </VerticalTimelineElement>
             </VerticalTimeline></div> </div></div>

@@ -13,3 +13,20 @@
   background-color: #5e956b;
   background-size: cover;
 }
+
+@font-face {
+  font-family: Blackletter;
+  src: url(../Assets/Font/Dearest.ttf);
+}
+
+.page-header {
+  text-align: center;
+  font-family: Blackletter;
+  font-size: 300%;
+}
+
+.page-content {
+  text-align: center;
+  font-family: Blackletter;
+  font-size: 200%;
+}

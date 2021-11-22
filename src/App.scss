@@ -11,11 +11,6 @@ $w: 300px;
   }
 }
 
-.nav-link {
-  color: white;
-  text-align: center;
-  margin-left: 1vw;
-}
 
 .App {
     text-align: center;
@@ -232,12 +227,19 @@ $w: 300px;
         padding:0px 16px 0px 0px;
         color:black;
       }
-      Link {
+      a {
         display:block;
         text-decoration:none;
         width:$w;
         color:inherit;
         padding-left:16px;
+        text-decoration: none;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+      a:focus{
+        text-decoration: none;
       }
       &.green {
         @include lightsaber(#0F0);
