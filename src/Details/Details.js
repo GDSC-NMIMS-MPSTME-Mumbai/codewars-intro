@@ -27,23 +27,23 @@ class Details extends Component {
               <div className="card-box">
                 <span></span>
                 <div className="card-content">
-                  <h2>Stage One</h2>
-                  <p>Choose a partner to have your back on this conquest. They must be from your class only. Give your teams’ name to your Class Representative/Student Representative.If there is more than one team vying to represent a class, we shall organize a short Competitive Programming competition for them on Hackerrank on 3rd-4th December.</p>
+                  <h2>Knock-out tournament</h2>
+                  <p>Join us as we host a 6-day long knock-out tournament of Competitive Programming, where each class sends a team. Compete against teams from your year and fight your way to the top!</p>
                 </div>
               </div>
               <div className="card-box">
                 <span></span>
                 <div className="card-content">
-                  <h2>Stage Two</h2>
-                  <p>As this is a one-of-a-kind competition, we shall use a custom-designed Competitive Programming platform named CodeWars, made with 💗by our Web Development team. To maintain a degree of fairness, we shall divide all teams into 4 pools, according to the year they are in. You shall go head-to-head against your opponent's team to solve a CP problem. You will have to join our Discord server, where you will be assigned a team-specific Voice Channel and Text Channel that only you and your teammate, as well as GDSC Administrators will have access to.</p>
+                  <h2>Game Development Workshop</h2>
+                  <p>Join us as we host a Game Development Workshop by Mr. Ram Iyer, a former student of MPSTME, SDE at Iris Automation and a former SDE Intern at EA Sports.</p>
                   
                 </div>
               </div>
               <div className="card-box">
                 <span></span>
                 <div className="card-content">
-                  <h2>Stage Three</h2>
-                  <p>The top 2 teams from each year-grade are invited to join us for the Grand Finals to be hosted offline, on December 11th (Saturday) in college. If you are in Mumbai or surrounding areas, you shall be requested to come to college for the competition. Further logistical compliance like Vaccination certificates, Social Distancing guidelines etc. shall be discussed later with the qualifying participants. Finals shall consist of several problems, to be tested over 4 rounds, with the results of each round being added up to a scoreboard.</p>
+                  <h2>Interview Bytes</h2>
+                  <p>Join us as we conduct a Panel Discussion with some of the best experts in the industry from Google, Amazon, Microsoft, Oracle, Apple and more to tell you about interview strategies and their journeys into those companies.</p>
                   
                 </div>
               </div>
