@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/codewars-intro/static/css/main.ef2f2bec.chunk.css",
-    "main.js": "/codewars-intro/static/js/main.57d13783.chunk.js",
-    "main.js.map": "/codewars-intro/static/js/main.57d13783.chunk.js.map",
+    "main.js": "/codewars-intro/static/js/main.e1d1ce4d.chunk.js",
+    "main.js.map": "/codewars-intro/static/js/main.e1d1ce4d.chunk.js.map",
     "runtime-main.js": "/codewars-intro/static/js/runtime-main.8ee8eacb.js",
     "runtime-main.js.map": "/codewars-intro/static/js/runtime-main.8ee8eacb.js.map",
     "static/css/2.2e99a83d.chunk.css": "/codewars-intro/static/css/2.2e99a83d.chunk.css",
@@ -32,6 +32,6 @@
     "static/css/2.2e99a83d.chunk.css",
     "static/js/2.19b8c8c5.chunk.js",
     "static/css/main.ef2f2bec.chunk.css",
-    "static/js/main.57d13783.chunk.js"
+    "static/js/main.e1d1ce4d.chunk.js"
   ]
 }
