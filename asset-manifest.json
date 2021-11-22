@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/codewars-intro/static/css/main.a6d54414.chunk.css",
-    "main.js": "/codewars-intro/static/js/main.c27c5dd2.chunk.js",
-    "main.js.map": "/codewars-intro/static/js/main.c27c5dd2.chunk.js.map",
+    "main.css": "/codewars-intro/static/css/main.7823fc6b.chunk.css",
+    "main.js": "/codewars-intro/static/js/main.341bb624.chunk.js",
+    "main.js.map": "/codewars-intro/static/js/main.341bb624.chunk.js.map",
     "runtime-main.js": "/codewars-intro/static/js/runtime-main.8ee8eacb.js",
     "runtime-main.js.map": "/codewars-intro/static/js/runtime-main.8ee8eacb.js.map",
     "static/css/2.2e99a83d.chunk.css": "/codewars-intro/static/css/2.2e99a83d.chunk.css",
@@ -10,8 +10,9 @@
     "static/js/2.3fc402fb.chunk.js.map": "/codewars-intro/static/js/2.3fc402fb.chunk.js.map",
     "index.html": "/codewars-intro/index.html",
     "static/css/2.2e99a83d.chunk.css.map": "/codewars-intro/static/css/2.2e99a83d.chunk.css.map",
-    "static/css/main.a6d54414.chunk.css.map": "/codewars-intro/static/css/main.a6d54414.chunk.css.map",
+    "static/css/main.7823fc6b.chunk.css.map": "/codewars-intro/static/css/main.7823fc6b.chunk.css.map",
     "static/js/2.3fc402fb.chunk.js.LICENSE.txt": "/codewars-intro/static/js/2.3fc402fb.chunk.js.LICENSE.txt",
+    "static/media/AniketKalgutkar.973ae301.jpg": "/codewars-intro/static/media/AniketKalgutkar.973ae301.jpg",
     "static/media/CodeWarsLogo.2a00a5c9.png": "/codewars-intro/static/media/CodeWarsLogo.2a00a5c9.png",
     "static/media/Prizes.css": "/codewars-intro/static/media/DeathShield5.d34f8a9d.jpeg",
     "static/media/DeathShield1.abd640f6.png": "/codewars-intro/static/media/DeathShield1.abd640f6.png",
@@ -21,13 +22,16 @@
     "static/media/DeathShield5.e65dc8cd.jpg": "/codewars-intro/static/media/DeathShield5.e65dc8cd.jpg",
     "static/media/DeathStar.082da823.png": "/codewars-intro/static/media/DeathStar.082da823.png",
     "static/media/GDSCLogo.56ed678a.png": "/codewars-intro/static/media/GDSCLogo.56ed678a.png",
-    "static/media/Book.css": "/codewars-intro/static/media/PlatformBookCover.d3f17859.png"
+    "static/media/GopalAgarwal.3851c55a.jpg": "/codewars-intro/static/media/GopalAgarwal.3851c55a.jpg",
+    "static/media/ManpreetKaur.b90509a4.jpg": "/codewars-intro/static/media/ManpreetKaur.b90509a4.jpg",
+    "static/media/Book.css": "/codewars-intro/static/media/PlatformBookCover.d3f17859.png",
+    "static/media/SukhadAnand.0ab85d3b.jpg": "/codewars-intro/static/media/SukhadAnand.0ab85d3b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.8ee8eacb.js",
     "static/css/2.2e99a83d.chunk.css",
     "static/js/2.3fc402fb.chunk.js",
-    "static/css/main.a6d54414.chunk.css",
-    "static/js/main.c27c5dd2.chunk.js"
+    "static/css/main.7823fc6b.chunk.css",
+    "static/js/main.341bb624.chunk.js"
   ]
 }
