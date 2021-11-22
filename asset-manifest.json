@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/codewars-intro/static/css/main.7823fc6b.chunk.css",
-    "main.js": "/codewars-intro/static/js/main.341bb624.chunk.js",
-    "main.js.map": "/codewars-intro/static/js/main.341bb624.chunk.js.map",
+    "main.css": "/codewars-intro/static/css/main.7649d842.chunk.css",
+    "main.js": "/codewars-intro/static/js/main.bbf1a7f8.chunk.js",
+    "main.js.map": "/codewars-intro/static/js/main.bbf1a7f8.chunk.js.map",
     "runtime-main.js": "/codewars-intro/static/js/runtime-main.8ee8eacb.js",
     "runtime-main.js.map": "/codewars-intro/static/js/runtime-main.8ee8eacb.js.map",
     "static/css/2.2e99a83d.chunk.css": "/codewars-intro/static/css/2.2e99a83d.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.3fc402fb.chunk.js.map": "/codewars-intro/static/js/2.3fc402fb.chunk.js.map",
     "index.html": "/codewars-intro/index.html",
     "static/css/2.2e99a83d.chunk.css.map": "/codewars-intro/static/css/2.2e99a83d.chunk.css.map",
-    "static/css/main.7823fc6b.chunk.css.map": "/codewars-intro/static/css/main.7823fc6b.chunk.css.map",
+    "static/css/main.7649d842.chunk.css.map": "/codewars-intro/static/css/main.7649d842.chunk.css.map",
     "static/js/2.3fc402fb.chunk.js.LICENSE.txt": "/codewars-intro/static/js/2.3fc402fb.chunk.js.LICENSE.txt",
     "static/media/AniketKalgutkar.973ae301.jpg": "/codewars-intro/static/media/AniketKalgutkar.973ae301.jpg",
     "static/media/CodeWarsLogo.2a00a5c9.png": "/codewars-intro/static/media/CodeWarsLogo.2a00a5c9.png",
@@ -31,7 +31,7 @@
     "static/js/runtime-main.8ee8eacb.js",
     "static/css/2.2e99a83d.chunk.css",
     "static/js/2.3fc402fb.chunk.js",
-    "static/css/main.7823fc6b.chunk.css",
-    "static/js/main.341bb624.chunk.js"
+    "static/css/main.7649d842.chunk.css",
+    "static/js/main.bbf1a7f8.chunk.js"
   ]
 }
