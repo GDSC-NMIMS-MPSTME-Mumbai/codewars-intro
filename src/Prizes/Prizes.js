@@ -17,19 +17,19 @@ function Prizes() {
         <div className="col col-lg prize-col">
           <ul className="card-ul">
             <li className="pic1 card-li">
-              <PrizeCard bgimg="1" />
+              <PrizeCard bgimg="1" cap="Certificate"/>
             </li>
             <li className="pic2 card-li">
-              <PrizeCard bgimg="2" />
+              <PrizeCard bgimg="2" cap="Special Mention"/>
             </li>
             <li className="pic3 card-li">
-              <PrizeCard bgimg="3" />
+              <PrizeCard bgimg="3" cap="Glory"/>
             </li>
             <li className="pic4 card-li">
-              <PrizeCard bgimg="4" />
+              <PrizeCard bgimg="4" cap="Valour"/>
             </li>
-            <li className="pic5 card-li">
-              <PrizeCard bgimg="5" />
+            <li className="pic5 card-li" >
+              <PrizeCard bgimg="5" cap="Teamwork"/>
             </li>
           </ul>
         </div>

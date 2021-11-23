@@ -16,7 +16,7 @@ function PrizeCard(props) {
         <a.div
           className={"c back"+props.bgimg}
           style={{ opacity: opacity.to(o => 1 - o), transform }}
-        />
+        ><h1 className="PrizeH">Tap here to know more...</h1></a.div>
         <a.div
           className={"c front"+props.bgimg}
           style={{
@@ -24,7 +24,7 @@ function PrizeCard(props) {
             transform,
             rotateX: '180deg',
           }}
-        />
+        ><h1 className="PrizeH">{props.cap}</h1></a.div>
       </div>
   );
 }

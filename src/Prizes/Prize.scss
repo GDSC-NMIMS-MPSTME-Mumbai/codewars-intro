@@ -69,6 +69,8 @@
     }
   }
 
+  
+
   @media screen and (max-width: 767px) {
     @for $i from 1 through 5 {
       .card-li:nth-child(#{$i}) {
@@ -210,5 +212,29 @@
     left: 45vw;
   }
   
+  @import url('https://fonts.googleapis.com/css?family=Sarpanch:900');
+  $rotationAmt: -12;
 
-  
+ .PrizeH {
+    transform: skew(#{$rotationAmt}deg) rotate(#{$rotationAmt}deg);
+    grid-area: text;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 80%;
+    margin: 0;
+    padding: 30px;
+    color: #1d9099;
+    text-shadow: 0.3rem 0.3rem 0 #E79C10, -0.3rem -0.3rem 0 #D53A33;
+  }
+
+  @media screen and (max-width: 767px) {
+    .PrizeH {
+      transform: skew(#{$rotationAmt}deg) rotate(#{$rotationAmt}deg);
+      grid-area: text;
+      font-family: 'Sarpanch', sans-serif;
+      font-size: 120%;
+      margin: 0;
+      padding: 30px;
+      color: #1d9099;
+      text-shadow: 0.1rem 0.1rem 0 #E79C10, -0.1rem -0.1rem 0 #D53A33;
+    }
+  }

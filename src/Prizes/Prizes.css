@@ -25,10 +25,14 @@
   width: 40vw;
   height: 30vh;
   cursor: pointer;
-  will-change: transform, opacity;
+  will-change: transform;
   background-size: cover;
   box-shadow: #064881 0px 0px 150px 5px;
+  color: aliceblue;
+  text-shadow: 0 0.1rem 0.5rem #000;
 }
+
+
 
 .prize-col {
   height: 100vh;
@@ -36,7 +40,7 @@
 
 
 .front1 {
-  background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+  background-image: url(../Assets/PrizeCertificate.png);
   background-size: 100% 100%;;
 }
 
@@ -46,7 +50,7 @@
 }
 
 .front2 {
-  background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+  background-image: url(../Assets/PrizeMention.png);
   background-size: 100% 100%;;
 }
 
@@ -56,7 +60,7 @@
 }
 
 .front3 {
-  background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+  background-image: url(../Assets/PrizeGlory.png);
   background-size: 100% 100%;;
 }
 
@@ -65,7 +69,7 @@
   background-size: 100% 100%;;
 }
 .front4 {
-  background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+  background-image: url(../Assets/PrizeValour.png);
   background-size: 100% 100%;;
 }
 
@@ -74,12 +78,12 @@
   background-size: 100% 100%;;
 }
 .front5 {
-  background-image: url(https://images.unsplash.com/photo-1544511916-0148ccdeb877?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1901&q=80i&auto=format&fit=crop);
+  background-image: url(../Assets/PrizeTeamwork.jpg);
   background-size: 100% 100%;;
 }
 
 .back5 {
-  background-image: url(../Assets/DeathShield5.jpeg);
+  background-image: url(../Assets/DeathShield5.png);
   background-size: 100% 100%;;
 }
 .cardcontainer {
