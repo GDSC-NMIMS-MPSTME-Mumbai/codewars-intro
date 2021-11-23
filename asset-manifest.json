@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/codewars-intro/static/css/main.a542897c.chunk.css",
-    "main.js": "/codewars-intro/static/js/main.b509836f.chunk.js",
-    "main.js.map": "/codewars-intro/static/js/main.b509836f.chunk.js.map",
+    "main.css": "/codewars-intro/static/css/main.f1910b38.chunk.css",
+    "main.js": "/codewars-intro/static/js/main.c53c5245.chunk.js",
+    "main.js.map": "/codewars-intro/static/js/main.c53c5245.chunk.js.map",
     "runtime-main.js": "/codewars-intro/static/js/runtime-main.8ee8eacb.js",
     "runtime-main.js.map": "/codewars-intro/static/js/runtime-main.8ee8eacb.js.map",
     "static/css/2.2e99a83d.chunk.css": "/codewars-intro/static/css/2.2e99a83d.chunk.css",
@@ -10,13 +10,13 @@
     "static/js/2.ecccbb90.chunk.js.map": "/codewars-intro/static/js/2.ecccbb90.chunk.js.map",
     "index.html": "/codewars-intro/index.html",
     "static/css/2.2e99a83d.chunk.css.map": "/codewars-intro/static/css/2.2e99a83d.chunk.css.map",
-    "static/css/main.a542897c.chunk.css.map": "/codewars-intro/static/css/main.a542897c.chunk.css.map",
+    "static/css/main.f1910b38.chunk.css.map": "/codewars-intro/static/css/main.f1910b38.chunk.css.map",
     "static/js/2.ecccbb90.chunk.js.LICENSE.txt": "/codewars-intro/static/js/2.ecccbb90.chunk.js.LICENSE.txt",
     "static/media/AniketKalgutkar.973ae301.jpg": "/codewars-intro/static/media/AniketKalgutkar.973ae301.jpg",
     "static/media/Authentication.546c8768.png": "/codewars-intro/static/media/Authentication.546c8768.png",
     "static/media/CodeWarsLogo.2a00a5c9.png": "/codewars-intro/static/media/CodeWarsLogo.2a00a5c9.png",
     "static/media/CodingArena.447b5e13.jpg": "/codewars-intro/static/media/CodingArena.447b5e13.jpg",
-    "static/media/Prizes.css": "/codewars-intro/static/media/DeathShield5.d34f8a9d.jpeg",
+    "static/media/Prizes.css": "/codewars-intro/static/media/PrizeValour.191021a0.png",
     "static/media/DeathStar.082da823.png": "/codewars-intro/static/media/DeathStar.082da823.png",
     "static/media/DivanshuAggarwal.bb991f53.jpg": "/codewars-intro/static/media/DivanshuAggarwal.bb991f53.jpg",
     "static/media/GDSCLogo.56ed678a.png": "/codewars-intro/static/media/GDSCLogo.56ed678a.png",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.8ee8eacb.js",
     "static/css/2.2e99a83d.chunk.css",
     "static/js/2.ecccbb90.chunk.js",
-    "static/css/main.a542897c.chunk.css",
-    "static/js/main.b509836f.chunk.js"
+    "static/css/main.f1910b38.chunk.css",
+    "static/js/main.c53c5245.chunk.js"
   ]
 }
