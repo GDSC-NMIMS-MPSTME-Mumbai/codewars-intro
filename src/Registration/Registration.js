@@ -14,7 +14,7 @@ class Registration extends Component {
           <div className="col-lg registrationCol">
             <IframeResizer
               log
-              src="https://bit.ly/GDSC-CodeWars-Registration"
+              src="https://docs.google.com/forms/d/e/1FAIpQLScLymNNKxVYH9Xxoj_GyOYv3PKsPpFdrrRHHxEblaNzX0NwWQ/viewform"
               style={{
                 minWidth: "100%",
                 height: "100%",

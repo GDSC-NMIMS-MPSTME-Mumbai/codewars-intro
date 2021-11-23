@@ -5,12 +5,10 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Icon from "@mdi/react";
-import { mdiAccount } from "@mdi/js";
 import { mdiAccountCheckOutline } from "@mdi/js";
 import { mdiCheckOutline } from "@mdi/js";
 import { mdiGamepadVariant } from "@mdi/js";
 import { mdiPageLast } from "@mdi/js";
-import { mdiOfficeBuildingOutline } from "@mdi/js";
 import { mdiAccountGroup } from "@mdi/js";
 import { mdiTrophyAward } from "@mdi/js";
 import './Timeline.css'

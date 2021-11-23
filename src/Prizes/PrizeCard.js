@@ -2,14 +2,8 @@ import './Prizes.css'
 import './Prize.scss'
 import { useSpring, a } from '@react-spring/web'
 import React, { useState } from 'react'
-import DeathShield1 from '../Assets/DeathShield1.png'
-import DeathShield2 from '../Assets/DeathShield2.jpg'
-import DeathShield3 from '../Assets/DeathShield3.jpg'
-import DeathShield4 from '../Assets/DeathShield4.jpg'
-import DeathShield5 from '../Assets/DeathShield5.jpg'
 
 function PrizeCard(props) {
-    const[bgimg, changeimg] = useState("");
     const [flipped, set] = useState(false)
     const { transform, opacity } = useSpring({
     opacity: flipped ? 1 : 0,

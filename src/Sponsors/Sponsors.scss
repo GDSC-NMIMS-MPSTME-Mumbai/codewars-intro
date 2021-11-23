@@ -65,7 +65,7 @@
   transform-style: preserve-3d;
   transform: translateZ(2rem);
   transition: opacity 0.3s linear;
-  text-shadow: 0 0.1rem 1rem #000;
+  text-shadow: 0 0.1rem 0.5rem #000;
   opacity: 0;
 }
 .slideContentInner .slideSubtitle,
@@ -81,7 +81,7 @@
 }
 .slideContentInner .slideDescription {
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 1.3rem;
   letter-spacing: 0.2ch;
 }
 

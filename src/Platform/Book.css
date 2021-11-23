@@ -14,19 +14,22 @@
   background-size: cover;
 }
 
-@font-face {
-  font-family: Blackletter;
-  src: url(../Assets/Font/Dearest.ttf);
-}
-
 .page-header {
   text-align: center;
-  font-family: Blackletter;
-  font-size: 300%;
+  font-size: 3rem !important;
+  font-weight: 700;
 }
 
 .page-content {
   text-align: center;
-  font-family: Blackletter;
-  font-size: 200%;
+  font-size: 2rem !important;
+  margin-left: 2vw;
+  margin-right: 2vw;
 }
+
+.page-image-img {
+  height: 30%;
+  width: 90%;
+}
+
+
