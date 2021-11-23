@@ -26,7 +26,7 @@ class Timeline extends Component {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: "rgb(238,44,30)", color: "#fff", boxShadow: "0px 0px 38px 1px #c02525"}}
                 contentArrowStyle={{ borderRight: "7px solid  rgb(238,44,30)" }}
-                date="4th December"
+                date="3rd December"
                 iconStyle={{ background: "rgb(238,44,30)", color: "#fff" }}
                 icon={
                   <Icon
@@ -44,7 +44,7 @@ class Timeline extends Component {
                 <h3 className="vertical-timeline-element-title">Registrations</h3>
                 <h4 className="vertical-timeline-element-subtitle">(Online)</h4>
                 <p>
-                Registrations open on 24th November, all through 4th December.
+                Registrations open on 24th November, all through 3rd December.
                 Get a team-mate for this conquest and get in for the Greatest battle of your lives. To register, navigate to the Registration tab.
 
                 </p>
