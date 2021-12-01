@@ -145,7 +145,7 @@ class Timeline extends Component {
                 <h3 className="vertical-timeline-element-title">Interview Bytes</h3>
                 <h4 className="vertical-timeline-element-subtitle">(Online)</h4>
                 <p>
-                Join us as we conduct a Panel Discussion with some of the best experts in the industry from Google, Amazon, Microsoft, Oracle, Apple and more to tell you about interview strategies and their journeys into those companies.
+                Join us as we conduct a Panel Discussion with some of the best experts in the industry from Google, Amazon, Microsoft and Oracle to tell you about interview strategies and their journeys into those companies.
                 </p>
               </VerticalTimelineElement>
               <VerticalTimelineElement
